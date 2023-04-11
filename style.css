@@ -6,8 +6,15 @@
 }
 .cabecalho{
     background-color: var(--verde);
+    display: flex;
+    justify-content: space-between;
 }
 
+.menu-item{
+    display: inline-block;
+    padding: 5px;
+    color:chocolate ;
+
 .logo{
-    width: 10%;
+    width: 10%
 }

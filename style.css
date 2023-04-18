@@ -2,19 +2,30 @@
     --preto: #000000;
     --verde: #588157;
     --verdinho: #F1FAEE;
-
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     background-color: var(--verde);
     display: flex;
     justify-content: space-between;
 }
+.logo{
+    width: 10%;
+    padding: 20px 45px;
+}
 
 .menu-item{
     display: inline-block;
-    padding: 5px;
-    color:chocolate ;
+    padding: 10px;
+    color: rgb(191, 188, 186);
+}
 
-.logo{
-    width: 10%
+.principal{
+  background-image: linear-gradient(--verdinho),var(--verde);
+
 }
